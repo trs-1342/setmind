@@ -5,6 +5,7 @@ export type SystemMeta = {
   workspaceName?: string;
   ownerId?: string;
   ownerEmail?: string;
+  workspaceType?: string;
   setupCompleted?: boolean;
   defaultTheme?: "light" | "dark" | "system";
 };
